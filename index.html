@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Simple Calculator</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="calculator">
+          <!-- Display Screen -->
+          <input type="text" class="display" id="display" disabled>
+
+          <!-- Calculator Grid Buttons -->
+          <div class="buttons">
+              <!-- Row 1 -->
+              <button class="operator" data-value="C">C</button>
+              <button class="operator" data-value="/">/</button>
+              <button class="operator" data-value="*">x</button>
+              <button class="operator" data-value="-">-</button>
+
+              <!-- Row 2 -->
+              <button class="number" data-value="7">7</button>
+              <button class="number" data-value="8">8</button>
+              <button class="number" data-value="9">9</button>
+              <button class="operator plus" data-value="+">+</button>
+
+              <!-- Row 3 -->
+              <button class="number" data-value="4">4</button>
+              <button class="number" data-value="5">5</button>
+              <button class="number" data-value="6">6</button>
+              <button class="equals" data-value="=">=</button>
+
+              <!-- Row 4 -->
+              <button class="number" data-value="1">1</button>
+              <button class="number" data-value="2">2</button>
+              <button class="number" data-value="3">3</button>
+
+              <!-- Row 5 (Special spacing for 0 and decimal) -->
+              <button class="number zero" data-value="0">0</button>
+              <button class="number" data-value=".">.</button>
+          </div>
+      </div>
+
+      <script src="script.js"></script>
+  </body>
+  </html>
+
